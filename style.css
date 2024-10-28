@@ -15,12 +15,17 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px 17%;
-    background: transparent;
+    padding: 15px 5%; /* Adjust padding for better spacing on small screens */
+    background: rgba(2, 4, 16, 0.8); /* Slight background for visibility */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .navbar a {
@@ -29,9 +34,15 @@ body {
     color: #e4e4e4;
     text-decoration: none;
     font-weight: 500;
-    margin-right: 100px;
+    margin: 0 15px; /* Adjust margin for better spacing */
 }
 
+@media (max-width: 768px) {
+    .navbar a {
+        margin: 0 10px; /* Smaller margin on mobile */
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+}
 .navbar a::after {
     content: '';
     position: absolute;
@@ -263,4 +274,64 @@ body {
 .popup-content button {
         margin-top: 10px;
         padding: 5px 10px;
+    }
+
+    @media (max-width: 1200px) {
+        .logo h2 {
+            font-size: 60px; /* Adjusted font size */
+        }
+        .text-sci h2 {
+            font-size: 60px; /* Adjusted font size */
+        }
+        .text-sci h2 span {
+            font-size: 35px; /* Adjusted span font size */
+        }
+        .text-sci p {
+            font-size: 12px; /* Adjusted paragraph font size */
+        }
+    }
+    
+    @media (max-width: 992px) {
+        .logo h2 {
+            font-size: 50px; /* Adjusted font size */
+        }
+        .text-sci h2 {
+            font-size: 50px; /* Adjusted font size */
+        }
+        .text-sci h2 span {
+            font-size: 30px; /* Adjusted span font size */
+        }
+        .text-sci p {
+            font-size: 11px; /* Adjusted paragraph font size */
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .logo h2 {
+            font-size: 40px; /* Adjusted font size */
+        }
+        .text-sci h2 {
+            font-size: 40px; /* Adjusted font size */
+        }
+        .text-sci h2 span {
+            font-size: 28px; /* Adjusted span font size */
+        }
+        .text-sci p {
+            font-size: 10px; /* Adjusted paragraph font size */
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .logo h2 {
+            font-size: 30px; /* Adjusted font size */
+        }
+        .text-sci h2 {
+            font-size: 30px; /* Adjusted font size */
+        }
+        .text-sci h2 span {
+            font-size: 24px; /* Adjusted span font size */
+        }
+        .text-sci p {
+            font-size: 9px; /* Adjusted paragraph font size */
+        }
     }

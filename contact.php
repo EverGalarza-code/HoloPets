@@ -21,7 +21,7 @@
         </nav>
 </header>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="content">
             <h2>Contact Us</h2>
             <p>If you have any sort of feedback or complaint please reach out to us!</p>

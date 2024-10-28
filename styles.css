@@ -180,3 +180,8 @@ footer {
         transform: translateY(0);
     }
 }
+
+#contact {
+    background: white!important;
+    opacity: 0.4;
+}

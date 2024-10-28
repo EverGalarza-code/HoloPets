@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <!-- Header Section -->
+        
         <header class="header row">
             <nav class="navbar col-12">
                 <a href="index.php">Home</a>
@@ -25,19 +25,19 @@
             </nav>
         </header>
 
-        <!-- Background Section -->
+        
         <div class="background row"></div>
 
-        <!-- Content Section -->
+        
         <div class="container">
             <div class="row content">
-                <div class="col-12 col-md-6 logo-section">
+                <div class= "logo-section">
                     <h2 class="logo">
                         <img class="badge" src="Logo.png" alt="Logo" width="100px" height="100px">
                         HoloPets
                     </h2>
                 </div>
-                <div class="col-12 col-md-6 text-sci">
+                <div class ="text-sci">
                     <h2>Welcome!<br><span>To Our New Website.</span></h2>
                     <p>Here at HoloPets we strive to bring you the most unique experience by providing you with infinite possibilities...</p>
                     <div class="social-icons">
