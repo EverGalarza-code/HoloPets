@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Holopets | About</title>
+    <title>Holopets | Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,10 +20,24 @@
         </nav>
 </header>
 
-    <section class="about">
-        <h2>About Holopets</h2>
-        <p>Holopets is dedicated to creating digital companions for a futuristic world. Our pets are designed with advanced AI technology and stunning holographic visuals.</p>
+<section class="reviews-section">
+        <h1>Customer Reviews</h1>
+        <div class="reviews-container">
+            <div class="review-card">
+                <h3>John Doe</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>“An amazing experience with my Holo Tiger. Love it!”</p>
+            </div>
+            <div class="review-card">
+                <h3>Jane Smith</h3>
+                <p>⭐⭐⭐⭐</p>
+                <p>“My Holo Unicorn has been fantastic. Highly recommended!”</p>
+            </div>
+            <!-- Add more reviews as needed -->
+        </div>
     </section>
+
+    
 
     <footer>
         <p>&copy; 2024 Holopets. All rights reserved.</p>
