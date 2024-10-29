@@ -20,4 +20,3 @@ function closePopup() {
   document.getElementById("popup-message").style.display = "none";
 }
 
-

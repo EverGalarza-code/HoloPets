@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="About.php">About Us</a></li>
@@ -25,27 +25,31 @@
         <div class="product-container">
             <div class="product-card">
                 <img src="Logo.png" alt="Product 1" width="100" height="100">
-                <h2>Holo Cat</h2>
+                <h2>Holo Fiction Ring</h2>
                 <p>$29.99</p>
-                <button class="btn">Add to Cart</button>
+                <h1 popover id="popover">Added to Cart!</h1>
+                <button class="btn" popovertarget="popover">Add to Cart</button>
             </div>
             <div class="product-card">
                 <img src="Logo.png" alt="Product 1" width="100" height="100">
-                <h2>Holo Cat</h2>
+                <h2>Holo Non-fiction Ring</h2>
                 <p>$29.99</p>
-                <button class="btn">Add to Cart</button>
+                <h1 popover id="popover">Added to Cart!</h1>
+                <button class="btn" popovertarget="popover">Add to Cart</button>
             </div>
             <div class="product-card">
                 <img src="Logo.png" alt="Product 1" width="100" height="100">
-                <h2>Holo Cat</h2>
+                <h2>Holo Education Ring</h2>
                 <p>$29.99</p>
-                <button class="btn">Add to Cart</button>
+                <h1 popover id="popover">Added to Cart!</h1>
+                <button class="btn" popovertarget="popover">Add to Cart</button>
             </div>
             <div class="product-card">
                 <img src="Logo.png" alt="Product 1" width="100" height="100">
-                <h2>Holo Cat</h2>
+                <h2>Holo Animal-Lover ring</h2>
                 <p>$29.99</p>
-                <button class="btn">Add to Cart</button>
+                <h1 popover id="popover">Added to Cart!</h1>
+                <button class="btn" popovertarget="popover">Add to Cart</button>
             </div>
         </div>
     </section>

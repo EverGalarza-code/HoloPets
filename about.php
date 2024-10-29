@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="About.php">About Us</a></li>
