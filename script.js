@@ -15,8 +15,4 @@ function showPopup(message) {
   document.getElementById("popup-message").style.display = "flex";
 }
 
-// Close the pop-up
-function closePopup() {
-  document.getElementById("popup-message").style.display = "none";
-}
 

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holopets | Shop</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
@@ -27,7 +29,9 @@
                 <img src="Logo.png" alt="Product 1" width="100" height="100">
                 <h2>Holo Fiction Ring</h2>
                 <p>$29.99</p>
-                <h1 popover id="popover">Added to Cart!</h1>
+                <div popover id="pop">
+                <p>Added to Cart!<i class="bi bi-cart"></i></p>
+                </div>
                 <button class="btn" popovertarget="popover">Add to Cart</button>
             </div>
             <div class="product-card">

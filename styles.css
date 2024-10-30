@@ -167,21 +167,34 @@ h1 {
     cursor: pointer;
 }
 
-.product-card .popover #popover{
-    background-color: black !important;
-    border:1rem;
-    border-color:rgb(0, 0, 0);
+
+:popover-open {
+    color:white;
+    background: #00aaff;
+    border-radius:2rem;
+    border:none;
+    position: sticky;
+    align-items: center;
+    background: 00aaff;
+    position:relative;
+    right: 20px;
+    cursor:pointer;
+    padding: 10px;
+}
+::backdrop{
+    opacity:0.3;
+    background-color:#333;
+}
+
+:popover-open::after{
+    animation-duration: 1s;
+    opacity: 0;
 
 }
-/* Does not work at the moment
-.product-card .h1 .popover{
-    transition:1s;
-}
 
-.product-card .h1 .popover-content{
-    background: rgb(1, 45, 189);
+.pop-image{
+    max-width:100%;
 }
-
 /* Reviews Section */
 .reviews-section {
     padding: 2rem;
