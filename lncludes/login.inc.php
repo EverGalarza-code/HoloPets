@@ -50,7 +50,7 @@
     }
 
     else {
-        header("Location: ../index.php");
+        header("Location: ../Store.php");
         exit(); 
     }
 ?>
