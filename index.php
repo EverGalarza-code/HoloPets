@@ -55,7 +55,7 @@
             <div class="row logreg-box">
                 <div class="col-12 col-md-6 form-box login">
                     <form action="#">
-                        <h2>Sign In</h2>
+                        <h2>Login</h2>
                         <div class="input-box">
                             <span class="icon"><i class='bx bxs-envelope'></i></span>
                             <input type="email" required>
