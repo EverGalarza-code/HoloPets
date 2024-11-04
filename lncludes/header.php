@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holopets | Home</title>
     <link rel="icon" type="image/x-icon" href="logo.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap-grid.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -53,16 +53,16 @@
 <!-- Login/Register Box Section -->
 <div class="row logreg-box">
                 <div class="col-12 col-md-6 form-box login">
-                    <form action="#" method="POST">
+                    <form action="lncludes/login.inc.php" method="POST">
                         <h2>Login</h2>
                         <div class="input-box">
                             <span class="icon"><i class='bx bxs-envelope'></i></span>
-                            <input type="email" required>
+                            <input name="mailuid" type="email" required>
                             <label>Email</label>
                         </div>
                         <div class="input-box">
                             <span class="icon"><i class='bx bxs-lock-alt'></i></span>
-                            <input type="password" required>
+                            <input name="pwd" type="password" required>
                             <label>Password</label>
                         </div>
                         <button type="submit" name="login-submit" class="btn">Login</button>
@@ -73,17 +73,9 @@
                 </div>
 
                 <div class="col-12 col-md-6 form-box register">
-                    <form method="POST">
+                    <form action="lncludes/signup.inc.php" method="POST">
                         <h2>Sign Up</h2>
-                        <?php
-                        if (isset($_GET["error"])) {
-                            if ($_GET["error"] == "emptyfields") {
-                                echo "showPopup('Fill in all fields!');";
-                            } elseif ($_GET["error"] == "invaliduidmail") {
-                                echo "showPopup('Invalid username and e-mail!');";
-                            }
-                        }
-                        ?>
+
                         <div class="input-box">
                             <span class="icon"><i class='bx bxs-user'></i></span>
                             <input type="text" name="uid" placeholder="username" required>
